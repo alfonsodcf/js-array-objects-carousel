@@ -108,7 +108,7 @@ function slideUp() {
   thumbs[currentIndexActive].classList.remove("active");
   //console.log(imgs);
   if (currentIndexActive === 0) {
-    currentIndexActive = items.length - 1;
+    currentIndexActive = img.length - 1;
   } else {
     currentIndexActive--;
   }
