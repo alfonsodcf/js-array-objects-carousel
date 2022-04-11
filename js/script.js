@@ -120,3 +120,4 @@ function slideUp() {
 
 next.addEventListener("click", slideDown);
 prev.addEventListener("click", slideUp);
+const timer = setInterval(slideDown, 3000);
